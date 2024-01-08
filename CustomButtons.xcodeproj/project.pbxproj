@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0BEEDC2B4C125F00CC7FA4 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BEEDB2B4C125F00CC7FA4 /* Rubik-Regular.ttf */; };
+		3C0BEEDE2B4C126600CC7FA4 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BEEDD2B4C126600CC7FA4 /* Rubik-Medium.ttf */; };
+		3C0BEEE12B4C12E900CC7FA4 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BEEE02B4C12E900CC7FA4 /* UIFont + Extension.swift */; };
 		3C8819FE2B389E7500092D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8819FD2B389E7500092D73 /* AppDelegate.swift */; };
 		3C881A002B389E7500092D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8819FF2B389E7500092D73 /* SceneDelegate.swift */; };
 		3C881A022B389E7500092D73 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C881A012B389E7500092D73 /* WelcomeViewController.swift */; };
 		3C881A072B389E7700092D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C881A062B389E7700092D73 /* Assets.xcassets */; };
 		3C881A0A2B389E7700092D73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C881A082B389E7700092D73 /* LaunchScreen.storyboard */; };
+		3C881A192B38A2E000092D73 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C881A182B38A2E000092D73 /* WelcomePresenter.swift */; };
+		3C881A1C2B38A49A00092D73 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C881A1B2B38A49A00092D73 /* ModuleBuilder.swift */; };
+		3C881A1F2B38A59800092D73 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C881A1E2B38A59800092D73 /* Router.swift */; };
+		3C881A222B38A77B00092D73 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3C881A212B38A77B00092D73 /* SnapKit */; };
+		3CF9049A2B3DCB1F006E9D51 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF904992B3DCB1F006E9D51 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C0BEEDB2B4C125F00CC7FA4 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		3C0BEEDD2B4C126600CC7FA4 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		3C0BEEE02B4C12E900CC7FA4 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		3C8819FA2B389E7500092D73 /* CustomButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8819FD2B389E7500092D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C8819FF2B389E7500092D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +33,10 @@
 		3C881A062B389E7700092D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C881A092B389E7700092D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C881A0B2B389E7700092D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C881A182B38A2E000092D73 /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		3C881A1B2B38A49A00092D73 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		3C881A1E2B38A59800092D73 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		3CF904992B3DCB1F006E9D51 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +44,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C881A222B38A77B00092D73 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C0BEED62B4C0E9D00CC7FA4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3C0BEED72B4C0EAB00CC7FA4 /* Model */,
+				3C0BEED82B4C0EB000CC7FA4 /* View */,
+				3C0BEED92B4C0EB400CC7FA4 /* Presenter */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3C0BEED72B4C0EAB00CC7FA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C0BEED82B4C0EB000CC7FA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CF904992B3DCB1F006E9D51 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C0BEED92B4C0EB400CC7FA4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3C0BEEDA2B4C124400CC7FA4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3C0BEEDD2B4C126600CC7FA4 /* Rubik-Medium.ttf */,
+				3C0BEEDB2B4C125F00CC7FA4 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3C0BEEDF2B4C12D800CC7FA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3C0BEEE02B4C12E900CC7FA4 /* UIFont + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		3C8819F12B389E7500092D73 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +119,12 @@
 		3C8819FC2B389E7500092D73 /* CustomButtons */ = {
 			isa = PBXGroup;
 			children = (
-				3C881A112B38A06B00092D73 /* App */,
+				3C0BEEDF2B4C12D800CC7FA4 /* Extensions */,
+				3C881A1D2B38A56600092D73 /* Router */,
+				3C881A1A2B38A48C00092D73 /* ModuleBuilder */,
 				3C881A132B38A08600092D73 /* Modules */,
 				3C881A122B38A07000092D73 /* Resources */,
+				3C881A112B38A06B00092D73 /* App */,
 				3C881A0B2B389E7700092D73 /* Info.plist */,
 			);
 			path = CustomButtons;
@@ -74,6 +142,7 @@
 		3C881A122B38A07000092D73 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3C0BEEDA2B4C124400CC7FA4 /* Fonts */,
 				3C881A062B389E7700092D73 /* Assets.xcassets */,
 				3C881A082B389E7700092D73 /* LaunchScreen.storyboard */,
 			);
@@ -83,9 +152,59 @@
 		3C881A132B38A08600092D73 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3C881A012B389E7500092D73 /* WelcomeViewController.swift */,
+				3C881A142B38A1C900092D73 /* Welcome */,
+				3C0BEED62B4C0E9D00CC7FA4 /* Main */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		3C881A142B38A1C900092D73 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				3C881A172B38A1F900092D73 /* Presenter */,
+				3C881A162B38A1F400092D73 /* View */,
+				3C881A152B38A1EE00092D73 /* Model */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		3C881A152B38A1EE00092D73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C881A162B38A1F400092D73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C881A012B389E7500092D73 /* WelcomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C881A172B38A1F900092D73 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3C881A182B38A2E000092D73 /* WelcomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3C881A1A2B38A48C00092D73 /* ModuleBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				3C881A1B2B38A49A00092D73 /* ModuleBuilder.swift */,
+			);
+			path = ModuleBuilder;
+			sourceTree = "<group>";
+		};
+		3C881A1D2B38A56600092D73 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3C881A1E2B38A59800092D73 /* Router.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +223,9 @@
 			dependencies = (
 			);
 			name = CustomButtons;
+			packageProductDependencies = (
+				3C881A212B38A77B00092D73 /* SnapKit */,
+			);
 			productName = CustomButtons;
 			productReference = 3C8819FA2B389E7500092D73 /* CustomButtons.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +254,9 @@
 				Base,
 			);
 			mainGroup = 3C8819F12B389E7500092D73;
+			packageReferences = (
+				3C881A202B38A77B00092D73 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3C8819FB2B389E7500092D73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C881A0A2B389E7700092D73 /* LaunchScreen.storyboard in Resources */,
+				3C0BEEDC2B4C125F00CC7FA4 /* Rubik-Regular.ttf in Resources */,
 				3C881A072B389E7700092D73 /* Assets.xcassets in Resources */,
+				3C0BEEDE2B4C126600CC7FA4 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0BEEE12B4C12E900CC7FA4 /* UIFont + Extension.swift in Sources */,
+				3CF9049A2B3DCB1F006E9D51 /* MainViewController.swift in Sources */,
 				3C881A022B389E7500092D73 /* WelcomeViewController.swift in Sources */,
+				3C881A192B38A2E000092D73 /* WelcomePresenter.swift in Sources */,
 				3C8819FE2B389E7500092D73 /* AppDelegate.swift in Sources */,
+				3C881A1C2B38A49A00092D73 /* ModuleBuilder.swift in Sources */,
+				3C881A1F2B38A59800092D73 /* Router.swift in Sources */,
 				3C881A002B389E7500092D73 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +500,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C881A202B38A77B00092D73 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C881A212B38A77B00092D73 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C881A202B38A77B00092D73 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C8819F22B389E7500092D73 /* Project object */;
 }
