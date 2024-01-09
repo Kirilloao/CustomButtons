@@ -25,6 +25,11 @@ final class WelcomeViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 10
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        button.addTarget(
+            self,
+            action: #selector(startButtonDidTapped),
+            for: .touchUpInside
+        )
         return button
     }()
 
@@ -34,6 +39,11 @@ final class WelcomeViewController: UIViewController {
         setViews()
         setupConstraints()
         view.backgroundColor = .white
+    }
+    
+    // MARK: - Private Actions
+    @objc private func startButtonDidTapped() {
+        presenter.showMainVC()
     }
     
     // MARK: - Private Methods

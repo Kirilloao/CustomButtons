@@ -41,5 +41,10 @@ final class Router: RouterProtocol {
     }
     
     func showMainVC() {
+        if let navigationController = navigationController {
+            guard let mainVC = moduleBuilder?.createMainModule() else { return }
+            mainVC.modalPresentationStyle = .fullScreen
+            navigationController.present(mainVC, animated: true)
+        }
     }
 }

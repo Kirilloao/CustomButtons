@@ -25,7 +25,7 @@ final class WelcomePresenter: WelcomePresenterProtocol {
     }
     
     func showMainVC() {
-        
+        router.showMainVC()
     }
     
 }

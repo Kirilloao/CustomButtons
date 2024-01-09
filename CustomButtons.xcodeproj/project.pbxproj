@@ -10,6 +10,9 @@
 		3C0BEEDC2B4C125F00CC7FA4 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BEEDB2B4C125F00CC7FA4 /* Rubik-Regular.ttf */; };
 		3C0BEEDE2B4C126600CC7FA4 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BEEDD2B4C126600CC7FA4 /* Rubik-Medium.ttf */; };
 		3C0BEEE12B4C12E900CC7FA4 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BEEE02B4C12E900CC7FA4 /* UIFont + Extension.swift */; };
+		3C0BEEE32B4C219500CC7FA4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BEEE22B4C219500CC7FA4 /* CustomButton.swift */; };
+		3C0BEEE52B4C25EC00CC7FA4 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BEEE42B4C25EC00CC7FA4 /* UIColor + Extension.swift */; };
+		3C0BEEF72B4DFA9B00CC7FA4 /* MainViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BEEF62B4DFA9B00CC7FA4 /* MainViewControllerPresenter.swift */; };
 		3C8819FE2B389E7500092D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8819FD2B389E7500092D73 /* AppDelegate.swift */; };
 		3C881A002B389E7500092D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8819FF2B389E7500092D73 /* SceneDelegate.swift */; };
 		3C881A022B389E7500092D73 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C881A012B389E7500092D73 /* WelcomeViewController.swift */; };
@@ -19,13 +22,16 @@
 		3C881A1C2B38A49A00092D73 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C881A1B2B38A49A00092D73 /* ModuleBuilder.swift */; };
 		3C881A1F2B38A59800092D73 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C881A1E2B38A59800092D73 /* Router.swift */; };
 		3C881A222B38A77B00092D73 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3C881A212B38A77B00092D73 /* SnapKit */; };
-		3CF9049A2B3DCB1F006E9D51 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF904992B3DCB1F006E9D51 /* MainViewController.swift */; };
+		3CF9049A2B3DCB1F006E9D51 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF904992B3DCB1F006E9D51 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C0BEEDB2B4C125F00CC7FA4 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		3C0BEEDD2B4C126600CC7FA4 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		3C0BEEE02B4C12E900CC7FA4 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		3C0BEEE22B4C219500CC7FA4 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3C0BEEE42B4C25EC00CC7FA4 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		3C0BEEF62B4DFA9B00CC7FA4 /* MainViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerPresenter.swift; sourceTree = "<group>"; };
 		3C8819FA2B389E7500092D73 /* CustomButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8819FD2B389E7500092D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C8819FF2B389E7500092D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +42,7 @@
 		3C881A182B38A2E000092D73 /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
 		3C881A1B2B38A49A00092D73 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		3C881A1E2B38A59800092D73 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		3CF904992B3DCB1F006E9D51 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3CF904992B3DCB1F006E9D51 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +77,8 @@
 		3C0BEED82B4C0EB000CC7FA4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3CF904992B3DCB1F006E9D51 /* MainViewController.swift */,
+				3CF904992B3DCB1F006E9D51 /* MainVC.swift */,
+				3C0BEEE22B4C219500CC7FA4 /* CustomButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -79,6 +86,7 @@
 		3C0BEED92B4C0EB400CC7FA4 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				3C0BEEF62B4DFA9B00CC7FA4 /* MainViewControllerPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				3C0BEEE02B4C12E900CC7FA4 /* UIFont + Extension.swift */,
+				3C0BEEE42B4C25EC00CC7FA4 /* UIColor + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -286,13 +295,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0BEEE12B4C12E900CC7FA4 /* UIFont + Extension.swift in Sources */,
-				3CF9049A2B3DCB1F006E9D51 /* MainViewController.swift in Sources */,
+				3CF9049A2B3DCB1F006E9D51 /* MainVC.swift in Sources */,
+				3C0BEEF72B4DFA9B00CC7FA4 /* MainViewControllerPresenter.swift in Sources */,
+				3C0BEEE32B4C219500CC7FA4 /* CustomButton.swift in Sources */,
 				3C881A022B389E7500092D73 /* WelcomeViewController.swift in Sources */,
 				3C881A192B38A2E000092D73 /* WelcomePresenter.swift in Sources */,
 				3C8819FE2B389E7500092D73 /* AppDelegate.swift in Sources */,
 				3C881A1C2B38A49A00092D73 /* ModuleBuilder.swift in Sources */,
 				3C881A1F2B38A59800092D73 /* Router.swift in Sources */,
 				3C881A002B389E7500092D73 /* SceneDelegate.swift in Sources */,
+				3C0BEEE52B4C25EC00CC7FA4 /* UIColor + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
